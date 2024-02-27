@@ -1,0 +1,32 @@
+body{
+    background-color: #666;
+    color: #8b8;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#board{
+    display: grid;
+    grid-template-columns: repeat(var(--GRID_WIDTH), max-content);
+    gap: .05em;
+}
+.cell{
+    width: 0.5em;
+    aspect-ratio: 1/1;
+    font-size: 300%;
+
+    background-color: #888888;
+    border: 0.5px outset darkgray;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    padding: 10px 20px;
+    background-color: lightgray;
+    color: rgb(90, 174, 90);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
