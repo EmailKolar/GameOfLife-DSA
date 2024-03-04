@@ -61,7 +61,7 @@ function readFromCell(row,col){
 
 function countNeighbors(row, col){
     let count = 0;
-    for(let y =-1; y<=0; y++){
+    for(let y =-1; y<=1; y++){
          for(let x =-1;x<=1;x++){
 
             if(x===0&&y===0)continue;//skip cell
